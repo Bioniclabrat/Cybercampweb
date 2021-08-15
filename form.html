@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions page</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>ISL ADMISSIONS FORM</h1>
+    <P>Fill in the spaces provided below, with the information given. Do not choose two options.</P>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+    </form>
+
+    <p>Choose your Gender</p>
+    <form>
+        <input type="radio" id="Male" name="Gender" value="MALE">
+        <label for="male">MALE</label><br>
+        <input type="radio" id="Female" name="Gender" value="FEMALE">
+        <label for="female">FEMALE</label>
+    </form>
+
+    <p>Fill in the space with your age, strictly in figures.</p>
+    <form>
+        <label for="age">Age</label><br>
+        <input type="text" id="age" name="age"><br>
+    </form>
+
+    <p>Who do you live with?</p>
+    <form>
+        <input type="checkbox" id="Father" name="caretaker" value="FATHER">
+        <label for="father">FATHER</label><br>
+        <input type="checkbox" id="Mother" name="caretaker" value="MOTHER">
+        <label for="mother">MOTHER</label><br>
+        <input type="checkbox" id="Guardian" name="caretaker" value="GUARDIAN">
+        <label for="guardian">GUARDIAN</label><br>
+        <input type="checkbox" id="FatherandMother" name="caretaker" value="FATHER AND MOTHER">
+        <label for="fatherandmother">FATHER and MOTHER</label>
+    </form>
+
+    <p>E-mail Address</p>
+    </form>
+        <form action="/isl_page.php">
+        <label for="e-mailaddress">E-mail Address</label><br>
+        <input type="text" id="e-mailaddress" name="e-mailaddress" value="sobiso@gmail.com"><br>
+        <input type="submit" value="submit">
+    </form>
+    
+       
+</body>
+</html>
